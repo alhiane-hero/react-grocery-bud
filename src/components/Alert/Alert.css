@@ -1,0 +1,18 @@
+.alert {
+    padding: .15rem .5rem;
+    border-radius: .2rem;
+    font-size: .90rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.alert.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+}
+
+.alert.alert-success {
+    color: #155724;
+    background: #d4edda;
+}

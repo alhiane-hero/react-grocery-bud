@@ -1,0 +1,37 @@
+.item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item .itemTitle {
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #444;
+}
+
+.item .btns .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item .btns .btn:first-of-type {
+    margin-right: 1rem;
+    color: #155724;
+}
+
+.item .btns .btn:last-of-type {
+    color: #e66b6b;
+}
+
+.clearBtn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: .25rem .5rem;
+    color: #721c24;
+    margin: 0 auto;
+    cursor: pointer;
+}
